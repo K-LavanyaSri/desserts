@@ -9,7 +9,6 @@ env/
 
 # Django-specific
 *.log
-db.sqlite3
 /media/
 staticfiles/
 *.pot
@@ -20,9 +19,6 @@ Pipfile.lock
 poetry.lock
 
 # If using MySQL or PostgreSQL locally
-*.sqlite3
-*.db
-*.db-journal
 
 # Ignore environment variables
 .env
