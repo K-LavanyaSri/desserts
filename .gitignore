@@ -37,4 +37,4 @@ poetry.lock
 .swp
 
 # Compiled static files
-static/
+
