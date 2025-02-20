@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific
+*.log
+db.sqlite3
+/media/
+staticfiles/
+*.pot
+
+# If you're using pipenv or poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# If using MySQL or PostgreSQL locally
+*.sqlite3
+*.db
+*.db-journal
+
+# Ignore environment variables
+.env
+.envrc
+*.secrets
+
+# VSCode & JetBrains IDE files
+.vscode/
+.idea/
+*.iml
+
+# MacOS and Linux
+.DS_Store
+*.swp
+.swo
+.swp
+
+# Compiled static files
+static/
