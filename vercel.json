@@ -4,7 +4,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "myproject13/wsgi.py",
+      "src": "desserts/wsgi.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb",
@@ -22,7 +22,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "myproject13/wsgi.py"  
+      "dest": "desserts/wsgi.py"  
     }
   ],
   "outputDirectory": "static"
